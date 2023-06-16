@@ -60,7 +60,8 @@ const Login = () => {
     placeholder='Enter Your Password' required/>
   </div>
  
-
+  <div className='mb-3'><button type="button" className="button" 
+  onClick={()=>{navigate('/forgot-password')}}>Forgot Password</button></div>
   <button type="submit" className="button">LOGIN</button>
 </form>
 
