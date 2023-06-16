@@ -13,3 +13,6 @@
 #npm i jsonwebtoken
 
 #npx create-react-app client
+
+#npm i react-toastify axios
+#npm i concurrently cors
