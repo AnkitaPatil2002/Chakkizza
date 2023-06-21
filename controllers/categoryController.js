@@ -60,7 +60,7 @@ export const categoryController=async(req,res)=>{
            res.status(200).send({
             success:true,
             message:'All categories List',
-            category
+            category,
            })
        }catch(error){
         console.log(error)
